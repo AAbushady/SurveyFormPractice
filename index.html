@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Survey Page</title>
+    <meta name="author" content="Alexander Zaki Abushady">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, nofollow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <section>
+                <div class="label">
+                    <label id="name-label">
+                        *Name:
+                    </label>
+                </div>
+                <div class="content">
+                    <input id="name" type="text" placeholder="Enter your name" required>
+                </div>
+            </section>
+            <section>
+                <div class="label">
+                    <label id="email-label">
+                        *Email:
+                    </label>
+                </div>
+                <div class="content">
+                    <input id="email" type="email" placeholder="Enter your Email" required>
+                </div>
+            </section>
+            <section>
+                <div class="label">
+                    <label id="number-label">
+                        *Age:
+                    </label>
+                </div>
+                <div class="content">
+                    <input id="number" type="number" placeholder="Age" min="18" max="99" required>
+                </div>
+            </section>
+            <section>
+                <div class="label">
+                    <label for="dropdown" id="dropdown-label">
+                        Lorem:
+                    </label>
+                </div>
+                <div class="content">
+                    <select id="dropdown">
+                        <option disabled value>Please Select One</option>
+                        <option value="ipsum">
+                            Ipsum
+                        </option>
+                        <option value="dolor">
+                            Dolor
+                        </option>
+                        <option value="sit">
+                            Sit
+                        </option>
+                        <option value="amet">
+                            Amet
+                        </option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <div class="label">
+                    <label for="radio">
+                        Lorem ipsum dolor sit amet?
+                    </label>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <input class="radio" type="radio" name="radio" value="consectetur"> Consectetur
+                        </li>
+                        <li>
+                            <input class="radio" type="radio" name="radio" value="adipiscing"> Adipiscing
+                        </li>
+                        <li>
+                            <input class="radio" type="radio" name="radio" value="elit"> Elit
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="label">
+                    <label for="checkbox">
+                        Lorem Ipsum?
+                    </label>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li class="checkbox">
+                            <input name="checkbox" value="1" type="checkbox">
+                            Dolor
+                        </li>
+                        <li class="checkbox">
+                            <input name="checkbox" value="2" type="checkbox">
+                            Sit
+                        </li>
+                        <li class="checkbox">
+                            <input name="checkbox" value="3" type="checkbox">
+                            Amet
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="label">
+                    <label for="textarea">
+                        Lorem ipsum dolor sit?
+                    </label>
+                </div>
+                <div class="content">
+                    <textarea name="textarea" placeholder="Lorem dolor sit amet, consectetur adipiscing elit."></textarea>
+                </div>
+            </section>
+            <div id="button">
+                <button id="submit" type="submit" onclick="alert('This button does nothing...')">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
