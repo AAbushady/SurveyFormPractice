@@ -31,8 +31,8 @@ section {
     padding: 5px;
 }
 
-.number {
-    width: 3em;
+#number {
+    min-width: 3em;
 }
 
 .content {
