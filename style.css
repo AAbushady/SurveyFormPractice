@@ -17,27 +17,40 @@ main {
 }
 
 section {
-    border: solid .25px;
+    border: solid;
     color: #000000;
-    display: inline-block;
+    display: flex;
+}
+
+div {
+    display: block;
 }
 
 .label {
     padding: 5px;
+    border: dashed;
 }
 
 .content {
     padding: 5px;
-    text-align: right;
 }
+
+.input-text {}
 
 ul {
     list-style: none;
 }
 
-li {}
+li {
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
 
-textarea {}
+textarea {
+    height: 50px;
+    resize: vertical;
+}
 
 #button {
     text-align: center;
