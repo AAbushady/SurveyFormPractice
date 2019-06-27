@@ -46,6 +46,10 @@ li {
     padding: .25em;
 }
 
+#comment {
+    text-align: center;
+}
+
 textarea {
     height: 6em;
     width: 16em;
