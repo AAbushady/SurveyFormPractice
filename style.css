@@ -1,9 +1,11 @@
-html,
-body {
+html {
     background-color: #3993DD;
-    font-family: Verdana;
-    text-align: center;
     color: #FFFFFF;
+}
+body {
+    font-family: Verdana;
+    font-size: 18px;
+    text-align: center;
 }
 
 header {
