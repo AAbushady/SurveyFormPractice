@@ -2,6 +2,7 @@ html {
     background-color: #3993DD;
     color: #FFFFFF;
 }
+
 body {
     font-family: Verdana;
     font-size: 18px;
@@ -75,4 +76,33 @@ button {
 button:hover {
     transform: translateY(-8px);
     box-shadow: 0px 18px 8px -10px rgba(0, 0, 0, .6);
+}
+
+@media (min-width: 600px) {
+    section {
+        display: inline-block;
+        padding-top: 10px;
+    }
+
+    .label {
+        float: left;
+        float: clear;
+    }
+
+    .content {
+        float: right;
+        float: clear;
+    }
+    
+    #radio {
+        display: flex;
+    }
+    
+    #checkbox {
+        display: flex;
+    }
+    
+    #comment {
+        display: flex;
+    }
 }
