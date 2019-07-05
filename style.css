@@ -125,3 +125,16 @@ button:hover {
         padding-right: 20px;
     }
 }
+
+@media (min-width: 1200px) {
+    section {
+        display: inline-block;
+    }
+
+    .label {
+        padding-right: 0px;
+    }
+    .content {
+        padding-left: 0px;
+    }
+}
