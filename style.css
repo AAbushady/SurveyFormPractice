@@ -41,7 +41,7 @@ section {
 
 ul {
     list-style: none;
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 li {
@@ -80,36 +80,20 @@ button:hover {
 
 @media (min-width: 600px) {
     section {
-        display: inline-block;
-        padding-top: 10px;
+        flex-direction: row;
     }
-
-    .label {
-        float: left;
-        float: clear;
-    }
-
-    .content {
-        float: right;
-        float: clear;
-    }
-    
-    #radio {
-        display: flex;
+    #radio-section {
         flex-direction: column;
     }
-    
-    #checkbox {
-        display: flex;
+    #checkbox-section {
         flex-direction: column;
     }
-    
-      ul {
-        text-align: justify;
-        padding: 0 0 0 10em;  
+    #comment-section {
+        flex-direction: column;
+        text-align: center;
     }
+}
+
+@media (min-width: 800px) {
     
-    #comment {
-        display: flex;
-    }
 }
