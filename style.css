@@ -96,10 +96,17 @@ button:hover {
     
     #radio {
         display: flex;
+        flex-direction: column;
     }
     
     #checkbox {
         display: flex;
+        flex-direction: column;
+    }
+    
+      ul {
+        text-align: justify;
+        padding: 0 0 0 10em;  
     }
     
     #comment {
