@@ -95,5 +95,29 @@ button:hover {
 }
 
 @media (min-width: 800px) {
+    section {
+        
+    }
+    #name-section {
+        display: inline-block;
+    }
+    #email-section{
+        display: inline-block;
+    }
+    #age-section{
+        display: inline-block;
+    }
     
+    #dropdown-section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .label {
+        padding-right: 50px;
+    }
+    .content {
+        padding-left: 25px;
+    }
 }
