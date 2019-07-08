@@ -1,19 +1,39 @@
-html,body {
-      background-color: #3993DD;
-  font-family: Verdana;
+html,
+body {
+    background-color: #3993DD;
+    font-family: Verdana;
 }
 
 header {
     text-align: center;
-    
-  color: #FFF;
+
+    color: #FFF;
 }
 
 main {
     background-color: #FFF;
-    box-shadow: 0px 5px 20px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.75);
 }
 
 ul {
     list-style: none;
+}
+
+#button {
+    text-align: center;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #3993DD;
+    border: none;
+    border-radius: 40px;
+    padding: 1em 2em;
+    box-shadow: 0px 4px 3px -2px rgba(0, 0, 0, .75);
+    transition: all ease-in-out 250ms;
+}
+
+button:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 18px 8px -10px rgba(0, 0, 0, .6);
 }
