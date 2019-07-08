@@ -14,23 +14,60 @@ main {
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.75);
     margin: auto;
     width: 75%;
-    max-width: 1080px; 
+    max-width: 1080px;
+    padding: 20px;
+    padding-top: 30px;
 }
 
-section {
-    display: inline-block;
-}
 
 .label {
-    
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
 }
 
 .content {
-    
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: bottom;
+}
+
+.input-text {
+    height: 20px;
+    widht: 280px;
+    padding: 5px;
+    margin: 5px;
+}
+
+#number {
+    width: 40px;
+}
+
+#dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 15px;
 }
 
 ul {
+    margin-left: 10px;
     list-style: none;
+    padding: 10px;
+}
+
+li {
+    padding: 10px;
+}
+
+textarea {
+    min-width: 250px;
+    min-height: 75px;
 }
 
 #button {
